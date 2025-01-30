@@ -31,9 +31,19 @@ pip install -r requirements.txt
 
 # Configurar la base de datos en settings.py
 
-# Aplicar migraciones y crear un superusuario
+# Aplicar migraciones
 python manage.py migrate
-python manage.py createsuperuser
+
+### En caso de que la base de datos aparezca vacia
+
+ejecutar el archivo createusers.py
+el cual creara los 35 ususarios y el super usuario
+la plantilla de usuario sera
+
+Username  = user#iteracion
+            ej: user1
+password = 1234 para todos los usuarios
+
 
 # Ejecutar el servidor
 python manage.py runserver
