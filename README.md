@@ -36,7 +36,7 @@ python manage.py migrate
 
 ### En caso de que la base de datos aparezca vacia
 
-ejecutar el archivo createusers.py
+ejecutar el archivo create_users.py
 el cual creara los 35 ususarios y el super usuario
 la plantilla de usuario sera
 
