@@ -20,6 +20,8 @@ Antes de instalar el proyecto, asegúrate de tener instalado:
 ```sh
 # Clonar el repositorio
 git clone https://github.com/garbo993/Django-react-vite-Aplication-Gabriel-Hernandez.git
+o
+https://gitfront.io/r/gabriel9905/HW6B9Mk8omrA/Django-react-vite-Aplication-Gabriel-Hernandez.git
 cd Django-react-vite-Aplication-Gabriel-Hernandez/backend
 
 # Crear y activar un entorno virtual
