@@ -13,7 +13,7 @@ function Login() {
       const response = await api.post('/login', { username, password })
       localStorage.setItem('token', response.data.token) // Guardar el token en localStorage
       console.log('Login successful:', response.data)
-      if (response.data.is_superuser) {
+      if (response.data.user.is_superuser) {
         navigate('/admin_main') // Redirigir a AdminMain si es administrador
       } else {
         navigate('/user_home') // Redirigir a UserHome si no es administrador
