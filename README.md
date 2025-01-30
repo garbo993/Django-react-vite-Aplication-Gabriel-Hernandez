@@ -34,6 +34,14 @@ pip install -r requirements.txt
 # Aplicar migraciones
 python manage.py migrate
 
+user normales :
+username :user1 al user35
+password = 1234
+
+Usuario administrado:
+username : admin
+password : 12345678
+
 ### En caso de que la base de datos aparezca vacia
 
 ejecutar el archivo create_users.py
@@ -52,7 +60,7 @@ python manage.py runserver
 ### Frontend (React con Vite)
 ```sh
 # Moverse al directorio del frontend
-cd ../frontend
+cd ../frontend/front
 
 # Instalar dependencias
 npm install
